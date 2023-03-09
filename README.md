@@ -18,3 +18,6 @@ https://developers.google.com/mediapipe/framework/getting_started/install
 # 3. Calculate Angles
 
 # 4. Curl Counter
+```python
+python3.7 curl-counter.py 
+```
