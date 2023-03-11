@@ -1,4 +1,14 @@
-# Curl Counter Program
+"""
+USAGE - The code uses MediaPipe Pose to track the angles of the arms during a bicep curl 
+        exercise and counts the number of repetitions performed. The left and right angles 
+        between the shoulder, elbow, and wrist are calculated and displayed on the screen. 
+        If the arm is raised high enough, it is counted as one repetition, and the counter is 
+        incremented. The current stage (up or down) and the number of repetitions are displayed 
+        on the screen. Finally, the program captures the camera's input and processes the frames 
+        until the user quits the program.
+
+AUTHOR - https://github.com/Ahendrix9624/
+"""
 
 import cv2
 import numpy as np
